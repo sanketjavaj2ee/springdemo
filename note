@@ -1,0 +1,8 @@
+1. Flyway Run app as springboot app
+open h2 on browser with url : jdbc:h2:<pathtoworkspace>/h2/testdb 
+for example:- jdbc:h2:C:/stsspace/springboot2/h2/testdb (note the path separator)
+>select * from USER
+
+vm argument
+-Dspring.profiles=h2
+
