@@ -45,7 +45,7 @@ public class DatabaseConfig {
 		return new NamedParameterJdbcTemplate(jt);
 	}
 
-	@Bean
+	@Bean(destroyMethod = "")
 	@ConfigurationProperties(prefix = "spring.flyway.datasource")
 	@FlywayDataSource
 	@ConditionalOnProperty(prefix = "flyway", name = "enabled", matchIfMissing = true)
