@@ -2,7 +2,13 @@
 open h2 on browser with url : jdbc:h2:<pathtoworkspace>/h2/testdb 
 for example:- jdbc:h2:C:/stsspace/springboot2/h2/testdb (note the path separator)
 >select * from USER
-
+2.
 vm argument
 -Dspring.profiles=h2
+3. angular 5
+https://codingthesmartway.com/building-an-angular-5-project-with-bootstrap-4-and-firebase/
+4.
 
+see
+https://www.djamware.com/post/5a0673c880aca7739224ee21/mean-stack-angular-5-crud-web-application-example
+https://github.com/Ismaestro/angular5-example-app
